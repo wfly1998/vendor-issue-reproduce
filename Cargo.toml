@@ -1,0 +1,9 @@
+[package]
+name = "vendor-issue-reproduce"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+is_odd = { git = "https://github.com/wfly1998/vendor-issue-reproduce-crate.git", branch = "main" }
